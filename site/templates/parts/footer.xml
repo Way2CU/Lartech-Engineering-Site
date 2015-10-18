@@ -6,7 +6,7 @@
 				cms:eval="href"
 				class="phone"
 				>
-				<cms:text constant="phone"/>
+				<cms:text constant="phone_text"/>
 			</a>
 
 			<span>
@@ -19,7 +19,7 @@
 				class="mail"
 				>
 
-				<cms:text constant="mail"/>
+				<cms:text constant="mail_text"/>
 			</a>
 		</address>
 
@@ -31,5 +31,9 @@
 				/>
 			<cms:text constant="title"/>	
 		</span>
+		
+		<div class="copyright" >
+			<span><cms:text constant="copyright"/></span>
+		</div>
 	</footer>
 </document>
