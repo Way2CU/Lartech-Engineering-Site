@@ -1,3 +1,9 @@
 {
-    "site_title": "Site title"
+    "site_title": "Lartech Engineering",
+    "menu_about": "אודות",
+    "menu_clients": "בין לקוחותינו",
+    "menu_solutions": "פתרונות",
+    "menu_building": "בניה קלה",
+    "menu_contact": "צור קשר",
+    "phone": "08-9443560"
 }
