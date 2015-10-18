@@ -1,0 +1,35 @@
+<document>
+	<footer>
+		<address>
+			<a
+				href="'tel:'.urlencode(Language::getText('phone'))"
+				cms:eval="href"
+				class="phone"
+				>
+				<cms:text constant="phone"/>
+			</a>
+
+			<span>
+				<cms:text constant="address"/>
+			</span>
+
+			<a
+				href="'mailto:'.urlencode(Language::getText('mail'))"
+				cms:eval="href"
+				class="mail"
+				>
+
+				<cms:text constant="mail"/>
+			</a>
+		</address>
+
+		<span class="logo">
+			<img 
+				src="_BASEURL.'/site/images/logo-reconstructed.svg'"  
+				alt="lartech-logo"
+				cms:eval="src"
+				/>
+			<cms:text constant="title"/>	
+		</span>
+	</footer>
+</document>
