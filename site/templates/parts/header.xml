@@ -1,5 +1,6 @@
 <document>
 	<header>
+
 		<a
 			class="$section == 'home' ? 'active' : false"
 			href="url_Make('', 'home')"
@@ -11,7 +12,9 @@
 			 	alt="lartech_logo"
 				cms:eval="src,alt"
 			 	/>
+			<cms:text constant="title"/>
 		</a>
+
 		<nav>
 			<a
 				class="$section == 'about' ? 'active' : false"
@@ -65,6 +68,12 @@
 			class="phone"
 			>
 			<cms:text constant="phone"/>
+			<img 
+				src="_BASEURL.'/site/images/nav-phone-icon.svg'"  
+				alt="icon_phone"
+				cms:eval="src"
+				/>
 		</a>
+
 	</header>
 </document>
