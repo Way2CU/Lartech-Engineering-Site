@@ -7,6 +7,9 @@
     "menu_building": "בניה קלה",
     "menu_contact": "צור קשר",
     "phone": "08-9443560",
+    "phone_text": "טלפון: 08-9443560",
     "mail": "lartech@gbrener.org.il",
-    "address": "כתובת: קיבוץ גבעת ברנר"
+    "mail_text": "דוא\"ל: lartech@gbrener.org.il" ,
+    "address": "כתובת: קיבוץ גבעת ברנר",
+    "copyright": "Designed and developed by<a href=\"http://www.way2cu.com\">Way2CU</a>.<br> All rights reserved."
 }
