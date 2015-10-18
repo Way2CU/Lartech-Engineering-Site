@@ -22,6 +22,11 @@
 
 body {
 	background-color: white;
-	color: black;
+	color: #34495E;
 	font-family: 'open Sans Hebrew' serif;
+}
+
+h1, h2, h3, h4, h5 ,h6 ,p {
+    margin: 0px;
+    padding: 0px;
 }
