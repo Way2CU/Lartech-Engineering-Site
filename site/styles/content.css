@@ -1,0 +1,44 @@
+/**
+ * Main Style Sheet
+ * Lartech Engineering Site
+ *
+ * Copyright (c) 2015. by Way2CU, http://way2cu.com
+ * Authors:Tal Reznic
+ */
+
+ /****************
+ 	Home page
+ ****************/
+section.top {
+	display: block;
+	text-align: center;
+	padding:0px calc((100vw - 1200px) / 2);
+	background-image: url(../images/header-background.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 1920px 800px;
+	min-height: 800px;
+}
+
+section.top article {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 40px;
+	padding-right: 40px;
+	background-color: rgba(0, 0, 0, 0.7);
+	width: 800px;	
+}
+
+section.top article p:first-of-type {
+	color: white;
+	font-size: 3em;
+}
+
+section.top article h1 {
+	color: #EA4E00;
+	font-size: 3em;
+	line-height: 100%;
+}
