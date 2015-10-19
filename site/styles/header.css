@@ -136,6 +136,7 @@ header nav ul li ul li a {
     color: rgba(0, 0, 0, 0.7);
     position: relative;
     overflow: hidden;
+    font-size: 1.1em;
 }
 
 header nav ul li ul li a:hover:before {
