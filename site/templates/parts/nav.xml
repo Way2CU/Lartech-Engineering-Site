@@ -1,5 +1,5 @@
 <document>
-	<ul class="main">
+	<ul>
 		<li>
 			<a
 				class="$section == 'about' ? 'active' : false"
@@ -9,6 +9,7 @@
 				>
 				<cms:text constant="menu_about"/>
 			</a>
+				<!-- Sub menu links for about page -->
 				<ul>
 					<li>
 						<a
@@ -44,13 +45,103 @@
 		</li>
 		<li>
 			<a
-				class="$section == 'solutions' ? 'active' : false"
-				href="url_Make('', 'solutions')"
+				class="$section == 'communication-towers' ? 'active' : false"
+				href="url_Make('', 'communication-towers')"
 				cms:eval="href"
 				cms:optional="class"
 				>
-				<cms:text constant="menu_solutions"/>
+				<cms:text constant="menu_communication_towers"/>
 			</a>
+				<!-- sub menu links for communication tower  -->
+				<ul>
+					<li>
+						<a
+							class="$section == 'about_constuction' ? 'active' : false"
+							href="url_Make('', 'about-construction')"
+							cms:eval="href"
+							cms:optional="class"
+							>
+							<cms:text constant="menu_communication_towers_A"/>
+						</a>
+					</li>
+
+					<li>
+						<a
+							class="$section == 'about_constuction' ? 'active' : false"
+							href="url_Make('', 'about-construction')"
+							cms:eval="href"
+							cms:optional="class"
+							>
+							<cms:text constant="menu_communication_towers_B"/>
+						</a>
+					</li>
+
+					<li>
+						<a
+							class="$section == 'about_constuction' ? 'active' : false"
+							href="url_Make('', 'about-construction')"
+							cms:eval="href"
+							cms:optional="class"
+							>
+							<cms:text constant="menu_communication_towers_C"/>
+						</a>
+					</li>
+
+					<li>
+						<a
+							class="$section == 'about_constuction' ? 'active' : false"
+							href="url_Make('', 'about-construction')"
+							cms:eval="href"
+							cms:optional="class"
+							>
+							<cms:text constant="menu_communication_towers_D"/>
+						</a>
+					</li>
+
+					<li>
+						<a
+							class="$section == 'about_constuction' ? 'active' : false"
+							href="url_Make('', 'about-construction')"
+							cms:eval="href"
+							cms:optional="class"
+							>
+							<cms:text constant="menu_communication_towers_E"/>
+						</a>
+					</li>
+
+					<li>
+						<a
+							class="$section == 'about_constuction' ? 'active' : false"
+							href="url_Make('', 'about-construction')"
+							cms:eval="href"
+							cms:optional="class"
+							>
+							<cms:text constant="menu_communication_towers_F"/>
+						</a>
+					</li>
+
+					<li>
+						<a
+							class="$section == 'about_constuction' ? 'active' : false"
+							href="url_Make('', 'about-construction')"
+							cms:eval="href"
+							cms:optional="class"
+							>
+							<cms:text constant="menu_communication_towers_G"/>
+						</a>
+					</li>
+
+					<li>
+						<a
+							class="$section == 'about_constuction' ? 'active' : false"
+							href="url_Make('', 'about-construction')"
+							cms:eval="href"
+							cms:optional="class"
+							>
+							<cms:text constant="menu_communication_towers_H"/>
+						</a>
+					</li>
+				</ul>
 		</li>
 		<li>
 			<a
@@ -61,6 +152,54 @@
 				>
 				<cms:text constant="menu_building"/>
 			</a>
+				<!-- sub menu links for building menu link -->
+				<ul>
+					<li>
+						<a
+							class="$section == 'about_constuction' ? 'active' : false"
+							href="url_Make('', 'about-construction')"
+							cms:eval="href"
+							cms:optional="class"
+							>
+							<cms:text constant="menu_building_A"/>
+						</a>
+					</li>
+
+					<li>
+						<a
+							class="$section == 'about_constuction' ? 'active' : false"
+							href="url_Make('', 'about-construction')"
+							cms:eval="href"
+							cms:optional="class"
+							>
+							<cms:text constant="menu_building_B"/>
+						</a>
+					</li>
+
+					<li>
+						<a
+							class="$section == 'about_constuction' ? 'active' : false"
+							href="url_Make('', 'about-construction')"
+							cms:eval="href"
+							cms:optional="class"
+							>
+							<cms:text constant="menu_building_C"/>
+						</a>
+					</li>
+
+					<li>
+						<a
+							class="$section == 'about_constuction' ? 'active' : false"
+							href="url_Make('', 'about-construction')"
+							cms:eval="href"
+							cms:optional="class"
+							>
+							<cms:text constant="menu_building_D"/>
+						</a>
+					</li>
+
+
+				</ul>
 		</li>
 		<li>
 			<a
