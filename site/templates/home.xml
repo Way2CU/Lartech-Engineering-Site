@@ -31,6 +31,48 @@
 
 			</section>
 
+			<section class="clients">
+
+				<cms:module
+					name="articles"
+					action="show"
+					text_id="lartech_id"
+					template="parts/article2.xml"
+					/>
+
+				<cms:module
+					name="gallery"
+					action="show_group"
+					text_id="clients_preview"
+					template="parts/gallery_group.xml"
+					/>
+
+				<a
+					href="url_Make('', 'clients')"
+					cms:eval="href"
+					>
+					<cms:text constant="clients_btn"/>
+				</a>	
+				
+			</section>
+
+			<section class="production">
+				
+				<cms:module
+					name="gallery"
+					action="show_group"
+					text_id="production_gallery"
+					template="parts/gallery_group2.xml"
+					/>
+				<a
+					href="url_Make('', 'solutions')"
+					cms:eval="href"
+					>
+					<cms:text constant="more_information_btn"/>
+				</a>
+						
+			</section>
+
 			<cms:template file="parts/footer.xml"/>
 		</body>
 	</html>
