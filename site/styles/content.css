@@ -405,5 +405,74 @@ section.about article p:last-of-type {
 	padding-bottom: 0px;
 }
 
+/******************
+	Cleints Page
+*******************/
+section.client_page {
+	display: block;
+	text-align: center;
+
+}
+
+section.client_page div.image {
+	padding-top: 68.5px;
+	padding-bottom: 68.5px;
+	background-image: url(../images/Clients-header-background-01.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 1920px 200px;
+}
+
+section.client_page div.image h2 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #EA4E00;
+    position: relative;
+    width: 600px;
+}
+
+section.client_page div.image h2:before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: 0px;
+    width: 80%;
+    height: 140%;
+    border: 2px solid #EA4E00;
+    border-right: none;
+    border-bottom: none;
+}
+
+section.client_page div.image h2:after {
+	content: "";
+    position: absolute;
+    bottom: -20px;
+    right: 0px;
+    width: 80%;
+    height: 140%;
+    border: 2px solid #EA4E00;
+    border-left: none;
+    border-top: none;
+}
+
+section.client_page div.gallery_container {
+	padding:50px calc((100vw - 1200px) / 2);
+}
+
+section.client_page div.gallery_container > p {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 20px;
+	text-align: center;
+	font-size: 1.8em;
+	width: 700px;
+}
+
+section.client_page div.gallery_container > img {
+	margin-left: 20px;
+	margin-right: 20px;
+}
 
 
