@@ -16,50 +16,7 @@
 		</a>
 
 		<nav>
-			<a
-				class="$section == 'about' ? 'active' : false"
-				href="url_Make('', 'about')"
-				cms:eval="href"
-				cms:optional="class"
-				>
-				<cms:text constant="menu_about"/>
-			</a>
-
-			<a
-				class="$section == 'clients' ? 'active' : false"
-				href="url_Make('', 'clients')"
-				cms:eval="href"
-				cms:optional="class"
-				>
-				<cms:text constant="menu_clients"/>
-			</a>
-
-			<a
-				class="$section == 'solutions' ? 'active' : false"
-				href="url_Make('', 'solutions')"
-				cms:eval="href"
-				cms:optional="class"
-				>
-				<cms:text constant="menu_solutions"/>
-			</a>
-
-			<a
-				class="$section == 'building' ? 'active' : false"
-				href="url_Make('', 'building')"
-				cms:eval="href"
-				cms:optional="class"
-				>
-				<cms:text constant="menu_building"/>
-			</a>
-
-			<a
-				class="$section == 'contact' ? 'active' : false"
-				href="url_Make('', 'contact')"
-				cms:eval="href"
-				cms:optional="class"
-				>
-				<cms:text constant="menu_contact"/>
-			</a>
+			<cms:template file="parts/nav.xml"/>
 		</nav>
 
 		<a
