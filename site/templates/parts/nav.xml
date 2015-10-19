@@ -1,0 +1,76 @@
+<document>
+	<ul class="main">
+		<li>
+			<a
+				class="$section == 'about' ? 'active' : false"
+				href="url_Make('', 'about')"
+				cms:eval="href"
+				cms:optional="class"
+				>
+				<cms:text constant="menu_about"/>
+			</a>
+				<ul>
+					<li>
+						<a
+							class="$section == 'about_constuction' ? 'active' : false"
+							href="url_Make('', 'about-construction')"
+							cms:eval="href"
+							cms:optional="class"
+							>
+							<cms:text constant="menu_about_constuction"/>
+						</a>	
+					</li>
+					<li>
+						<a
+							class="$section == 'about_building' ? 'active' : false"
+							href="url_Make('', 'about-building')"
+							cms:eval="href"
+							cms:optional="class"
+							>
+							<cms:text constant="menu_about_building"/>
+						</a>	
+					</li>
+				</ul>
+		</li>
+		<li>
+			<a
+				class="$section == 'clients' ? 'active' : false"
+				href="url_Make('', 'clients')"
+				cms:eval="href"
+				cms:optional="class"
+				>
+				<cms:text constant="menu_clients"/>
+			</a>
+		</li>
+		<li>
+			<a
+				class="$section == 'solutions' ? 'active' : false"
+				href="url_Make('', 'solutions')"
+				cms:eval="href"
+				cms:optional="class"
+				>
+				<cms:text constant="menu_solutions"/>
+			</a>
+		</li>
+		<li>
+			<a
+				class="$section == 'building' ? 'active' : false"
+				href="url_Make('', 'building')"
+				cms:eval="href"
+				cms:optional="class"
+				>
+				<cms:text constant="menu_building"/>
+			</a>
+		</li>
+		<li>
+			<a
+				class="$section == 'contact' ? 'active' : false"
+				href="url_Make('', 'contact')"
+				cms:eval="href"
+				cms:optional="class"
+				>
+				<cms:text constant="menu_contact"/>
+			</a>
+		</li>
+	</ul>
+</document>
