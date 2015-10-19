@@ -331,4 +331,79 @@ section.production > a:before {
 	transition: all 0.3s;
 }
 
+/******************
+	About Page
+*******************/
+section.about {
+	display: block;
+	text-align: right;
+}
+
+section.about div.image {
+	padding-top: 68.5px;
+	padding-bottom: 68.5px;
+	background-image: url(../images/about-header-background-01.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 1920px 200px;
+}
+
+section.about div.image h2 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #EA4E00;
+    position: relative;
+    width: 800px;
+}
+
+section.about div.image h2:before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: 0px;
+    width: 80%;
+    height: 140%;
+    border: 2px solid #EA4E00;
+    border-right: none;
+    border-bottom: none;
+}
+
+section.about div.image h2:after {
+	content: "";
+    position: absolute;
+    bottom: -20px;
+    right: 0px;
+    width: 80%;
+    height: 140%;
+    border: 2px solid #EA4E00;
+    border-left: none;
+    border-top: none;
+}
+
+section.about article {
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	width: 960px;
+}
+
+section.about article p {
+	padding-bottom: 20px;
+}
+
+section.about article img {
+	width: 40%;
+	float: left;
+	margin-right:40px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+section.about article p:last-of-type {
+	padding-bottom: 0px;
+}
+
+
 
