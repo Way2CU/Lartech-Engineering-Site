@@ -1,0 +1,12 @@
+<document>
+
+	<h2><cms:var param="name" multilanguage="yes"/></h2>
+	<p><cms:var param="description" multilanguage="yes"/></p>
+	<cms:module
+		name="gallery"
+		action="show_image_list"
+		group="production_gallery"
+		template="parts/image.xml"
+		/>
+
+</document>
