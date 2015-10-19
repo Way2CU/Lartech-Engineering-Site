@@ -1,0 +1,13 @@
+<document>
+
+	<div class="gallery_container">
+		<p><cms:var param="description" multilanguage="yes"/></p>
+		<cms:module
+			name="gallery"
+			action="show_image_list"
+			group="lartech_clients"
+			template="parts/image.xml"
+			/>
+	</div>	
+	
+</document>

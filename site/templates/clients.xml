@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "../units/schema/language.dtd">
+<document>
+	<cms:var name="_DOCTYPE"/>
+	<html lang="$language" cms:eval="lang">
+		<head>
+			<title><cms:text constant="site_title"/></title>
+			<cms:module name="head_tag" action="print_tag"/>
+		</head>
+
+		<body class="$language_rtl ? 'rtl' : 'ltr'" cms:eval="class">
+			<cms:template file="parts/header.xml"/>
+			<section class="$section == 'clients' ? 'client_page' : false" cms:optional="class">
+				
+			<div class="image">
+				<h2><cms:text constant="clients_title"/></h2>
+			</div>
+
+			<cms:module
+				name="gallery"
+				action="show_group"
+				text_id="lartech_clients"
+				template="parts/gallery_group3.xml"
+				/>
+
+			<cms:template file="parts/footer.xml"/>
+		</body>
+	</html>
+</document>
