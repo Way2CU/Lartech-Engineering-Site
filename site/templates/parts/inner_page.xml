@@ -1,0 +1,13 @@
+<document>
+	
+	<section class="inner">
+		<div class="image">
+			<h2><cms:var param="title" multilanguage="yes"/></h2>
+		</div>
+		
+		<article>
+			<cms:markdown param="content" multilanguage="yes"/>
+		</article>
+	</section>
+
+</document>
