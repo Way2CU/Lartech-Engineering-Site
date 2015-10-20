@@ -14,7 +14,7 @@
 					<li>
 						<a
 							class="$section == 'about_constuction' ? 'active' : false"
-							href="url_Make('', 'about-construction')"
+							href="url_Make('construction', 'about')"
 							cms:eval="href"
 							cms:optional="class"
 							>
