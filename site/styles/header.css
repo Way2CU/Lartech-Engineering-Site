@@ -75,6 +75,10 @@ header nav ul li a {
 	transition: all 0.3s;
 }
 
+header nav ul li a:hover,header nav ul li a.active  {
+	color: #EA4E00;
+}
+
 header nav ul li a:hover:before {
 	left: 0%;
 }
@@ -133,6 +137,7 @@ header nav ul li ul li {
 	display: block;
 	margin: 0px;
 	padding: 0px;
+	width: 250px;
 }
 
 header nav ul li ul li:last-of-type {
