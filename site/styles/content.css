@@ -59,12 +59,14 @@ section.top article:after {
 }
 
 section.top article p:first-of-type {
+	padding-bottom: 20px;
 	color: white;
 	font-size: 3em;
+	line-height: 100%;
 }
 
 section.top article h1 {
-	padding-bottom: 30px;
+	padding-bottom: 20px;
 	color: #EA4E00;
 	font-size: 3em;
 	line-height: 100%;
@@ -98,6 +100,7 @@ section.top article p {
     margin-left: auto;
     margin-right: auto;
     color: white;
+    font-size: 1.5em;
     width: 80%;
 }
 
@@ -116,6 +119,7 @@ div.form_wrap {
 div.form_wrap > p {
 	padding-bottom: 15px;
 	color: white;
+	font-size: 1.5em;
 }
 
 
@@ -180,13 +184,14 @@ form div.controls {
 }
 
 form div.controls button {
-    padding-top: 17px;
-    padding-bottom: 17px;
+    padding-top: 19px;
+    padding-bottom: 19px;
     padding-left: 25px;
     padding-right: 25px;
     border: 1px solid #BDC3C7;
 	background-color: white;
     line-height: 100%;
+    font-weight: 700;
     color: #EA4E00;
     z-index: 1;
     cursor: pointer;
@@ -215,11 +220,17 @@ section.clients article {
 }
 
 section.clients article h2 {
+	font-size: 2.5em;
 	color: black;
+}
+
+section.clients article p {
+	font-size: 1.5em;
 }
 
 section.clients > h2 {
 	color: black;
+	font-size: 2.5em;
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
@@ -238,7 +249,7 @@ section.clients > a {
 	padding-bottom: 10px;
 	text-decoration: none;
 	color: #EA4E00;
-	font-size: 2em;
+	font-size: 1.8em;
 	border: 1px solid #EA4E00;
 	position: relative;
 	overflow: hidden;
@@ -275,6 +286,7 @@ section.production {
 }
 
 section.production > h2 {
+	font-size: 2.5em;
 	padding-bottom: 20px;
 	color: white;
 	line-height: 100%;
@@ -282,6 +294,7 @@ section.production > h2 {
 
 section.production > p {
 	padding-bottom: 20px;
+	font-size: 1.5em;
 	color: #EA4E00;
 }
 
@@ -299,7 +312,7 @@ section.production > a {
 	padding-bottom: 10px;
 	text-decoration: none;
 	color: #EA4E00;
-	font-size: 2em;
+	font-size: 1.8em;
 	border: 1px solid #EA4E00;
 	position: relative;
 	overflow: hidden;
@@ -349,6 +362,7 @@ section.about div.image h2 {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    font-size: 2.5em;
     color: #EA4E00;
     position: relative;
     width: 800px;
@@ -424,6 +438,7 @@ section.client_page div.image h2 {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    font-size: 2.5em;
     color: #EA4E00;
     position: relative;
     width: 600px;
@@ -463,7 +478,7 @@ section.client_page div.gallery_container > p {
 	margin-right: auto;
 	padding-bottom: 20px;
 	text-align: center;
-	font-size: 1.8em;
+	font-size: 1.5em;
 	width: 700px;
 }
 
