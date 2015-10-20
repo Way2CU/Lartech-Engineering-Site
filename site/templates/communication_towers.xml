@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "../units/schema/language.dtd">
+<document>
+	<cms:var name="_DOCTYPE"/>
+	<html lang="$language" cms:eval="lang">
+		<head>
+			<title><cms:text constant="site_title"/></title>
+			<cms:module name="head_tag" action="print_tag"/>
+		</head>
+
+		<body class="$language_rtl ? 'rtl' : 'ltr'" cms:eval="class">
+			<cms:template file="parts/header.xml"/>
+			<section class="$action == '_default' ? 'communication' : false" cms:optional="class">
+				
+				<div class="image">
+					<h2><cms:text constant="communication_title"/></h2>
+				</div>
+
+				<cms:module
+					name="articles"
+					action="show"
+					text_id="communication_towers"
+					template="parts/article.xml"
+					/>
+
+				<cms:module
+					name="gallery"
+					action="show_group"
+					text_id="communication_towers_gallery"
+					template="parts/gallery_group4.xml"
+					/>	
+			</section>
+
+			<cms:template file="parts/footer.xml"/>
+		</body>
+	</html>
+</document>
