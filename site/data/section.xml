@@ -5,7 +5,11 @@
 		<language name="all" file="home.xml" />
 	</section>
 	<section name="about">
-		<language name="all" file="about.xml" />
+		<language name="all">
+			<action name="_default" file="about.xml"/>
+			<action name="construction" file="about-construction.xml"/>
+			<action name="building" file="about-construction.xml"/>
+		</language>
 	</section>
 	<section name="clients">
 		<language name="all" file="clients.xml" />
