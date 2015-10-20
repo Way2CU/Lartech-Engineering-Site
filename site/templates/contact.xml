@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "../units/schema/language.dtd">
+<document>
+	<cms:var name="_DOCTYPE"/>
+	<html lang="$language" cms:eval="lang">
+		<head>
+			<title><cms:text constant="site_title"/></title>
+			<cms:module name="head_tag" action="print_tag"/>
+		</head>
+
+		<body class="$language_rtl ? 'rtl' : 'ltr'" cms:eval="class">
+			<cms:template file="parts/header.xml"/>
+			<section class="$section == 'contact' ? 'contact' : false" cms:optional="class">
+				<div class="image">
+					<h2><cms:text constant="contact_title"/></h2>
+				</div>
+				<div class="contact_content">
+					<div class="form_wrap">
+						<p><cms:text constant="form_title"/></p>
+						<cms:module
+							name="contact_form"
+							action="show"
+							text_id="contact"
+							/>
+					</div>
+
+					<cms:module
+						name="articles"
+						action="show"
+						text_id="contact"
+						template="parts/article.xml"
+						/>
+					</div>	
+			</section>	
+
+			<cms:template file="parts/footer.xml"/>
+		</body>
+	</html>
+</document>
