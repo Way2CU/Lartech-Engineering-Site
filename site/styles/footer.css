@@ -129,3 +129,13 @@ footer div.copyright span a {
 footer div.copyright span a:hover {
 	color:#5bc2d8;
 }
+
+@media all and (max-width: 1024px) and (min-width: 768px) {
+	footer address a, footer address span {
+		font-size: 1em;
+	}
+
+	section.contact div.form_wrap {
+		margin-right: 20px;
+	}
+}

@@ -756,5 +756,39 @@ section.inner article p:last-of-type {
 	padding-bottom: 0px;
 }
 
+/*Tablet Version*/
+
+@media all and (max-width: 1024px) and (min-width: 768px) {
+	header > a:first-of-type {
+		font-size: 1.3em;
+		padding-right: 25px;
+	}
+
+	header > a:first-of-type img {
+		width: 65px;
+		height: 65px;
+	}
+
+	header nav {
+		padding-right: 10px;
+	}
+
+	header > a.phone {
+		padding-right: 10px;
+	}
+
+	header nav ul li {
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+
+	header nav ul li {
+		padding-right: 0px;
+		padding-left: 0px;
+	}	
+}
+
+
+
 
 
