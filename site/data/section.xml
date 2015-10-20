@@ -15,7 +15,9 @@
 		<language name="all" file="clients.xml" />
 	</section>
 	<section name="communication-towers">
-		<language name="all" file="communication-towers.xml" />
+		<language name="all">
+			<action name="_default" file="communication_towers.xml"/>
+		</language>
 	</section>
 	<section name="building">
 		<language name="all" file="building.xml" />
