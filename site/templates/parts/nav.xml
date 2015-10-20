@@ -13,22 +13,22 @@
 				<ul>
 					<li>
 						<a
-							class="$section == 'about_constuction' ? 'active' : false"
+							class="$section == 'building' ? 'active' : false"
+							href="url_Make('building', 'about')"
+							cms:eval="href"
+							cms:optional="class"
+							>
+							<cms:text constant="menu_about_building"/>
+						</a>	
+					</li>
+					<li>
+						<a
+							class="$section == 'construction' ? 'active' : false"
 							href="url_Make('construction', 'about')"
 							cms:eval="href"
 							cms:optional="class"
 							>
 							<cms:text constant="menu_about_constuction"/>
-						</a>	
-					</li>
-					<li>
-						<a
-							class="$section == 'about_building' ? 'active' : false"
-							href="url_Make('', 'about-building')"
-							cms:eval="href"
-							cms:optional="class"
-							>
-							<cms:text constant="menu_about_building"/>
 						</a>	
 					</li>
 				</ul>
@@ -57,7 +57,7 @@
 					<li>
 						<a
 							class="$section == 'about_constuction' ? 'active' : false"
-							href="url_Make('', 'about-construction')"
+							href="url_Make('self-soport', 'communication-towers')"
 							cms:eval="href"
 							cms:optional="class"
 							>
@@ -68,7 +68,7 @@
 					<li>
 						<a
 							class="$section == 'about_constuction' ? 'active' : false"
-							href="url_Make('', 'about-construction')"
+							href="url_Make('three-feet', 'communication-towers')"
 							cms:eval="href"
 							cms:optional="class"
 							>
@@ -79,7 +79,7 @@
 					<li>
 						<a
 							class="$section == 'about_constuction' ? 'active' : false"
-							href="url_Make('', 'about-construction')"
+							href="url_Make('four-feet', 'communication-towers')"
 							cms:eval="href"
 							cms:optional="class"
 							>
@@ -90,7 +90,7 @@
 					<li>
 						<a
 							class="$section == 'about_constuction' ? 'active' : false"
-							href="url_Make('', 'about-construction')"
+							href="url_Make('monopole', 'communication-towers')"
 							cms:eval="href"
 							cms:optional="class"
 							>
@@ -101,7 +101,7 @@
 					<li>
 						<a
 							class="$section == 'about_constuction' ? 'active' : false"
-							href="url_Make('', 'about-construction')"
+							href="url_Make('pole1', 'communication-towers')"
 							cms:eval="href"
 							cms:optional="class"
 							>
@@ -112,7 +112,7 @@
 					<li>
 						<a
 							class="$section == 'about_constuction' ? 'active' : false"
-							href="url_Make('', 'about-construction')"
+							href="url_Make('pole2', 'communication-towers')"
 							cms:eval="href"
 							cms:optional="class"
 							>
@@ -123,7 +123,7 @@
 					<li>
 						<a
 							class="$section == 'about_constuction' ? 'active' : false"
-							href="url_Make('', 'about-construction')"
+							href="url_Make('pole3', 'communication-towers')"
 							cms:eval="href"
 							cms:optional="class"
 							>
@@ -134,7 +134,7 @@
 					<li>
 						<a
 							class="$section == 'about_constuction' ? 'active' : false"
-							href="url_Make('', 'about-construction')"
+							href="url_Make('design-solutions', 'communication-towers')"
 							cms:eval="href"
 							cms:optional="class"
 							>
@@ -157,7 +157,7 @@
 					<li>
 						<a
 							class="$section == 'about_constuction' ? 'active' : false"
-							href="url_Make('', 'about-construction')"
+							href="url_Make('green', 'building')"
 							cms:eval="href"
 							cms:optional="class"
 							>
@@ -168,7 +168,7 @@
 					<li>
 						<a
 							class="$section == 'about_constuction' ? 'active' : false"
-							href="url_Make('', 'about-construction')"
+							href="url_Make('industrial', 'building')"
 							cms:eval="href"
 							cms:optional="class"
 							>
@@ -179,7 +179,7 @@
 					<li>
 						<a
 							class="$section == 'about_constuction' ? 'active' : false"
-							href="url_Make('', 'about-construction')"
+							href="url_Make('tower', 'building')"
 							cms:eval="href"
 							cms:optional="class"
 							>
@@ -190,7 +190,7 @@
 					<li>
 						<a
 							class="$section == 'about_constuction' ? 'active' : false"
-							href="url_Make('', 'about-construction')"
+							href="url_Make('conventional', 'building')"
 							cms:eval="href"
 							cms:optional="class"
 							>
