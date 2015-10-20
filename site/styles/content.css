@@ -487,4 +487,193 @@ section.client_page div.gallery_container > img {
 	margin-right: 20px;
 }
 
+ /****************
+ 	Communication-Towers page
+ ****************/
+section.communication {
+	display: block;
+	text-align: center;
+
+}
+
+section.communication div.image {
+	padding-top: 68.5px;
+	padding-bottom: 68.5px;
+	background-image: url(../images/solutions-header-background-01.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 1920px 200px;
+}
+
+section.communication div.image h2 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 2.5em;
+    color: #EA4E00;
+    position: relative;
+    width: 800px;
+}
+
+section.communication div.image h2:before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: 0px;
+    width: 80%;
+    height: 140%;
+    border: 2px solid #EA4E00;
+    border-right: none;
+    border-bottom: none;
+}
+
+section.communication div.image h2:after {
+	content: "";
+    position: absolute;
+    bottom: -20px;
+    right: 0px;
+    width: 80%;
+    height: 140%;
+    border: 2px solid #EA4E00;
+    border-left: none;
+    border-top: none;
+}
+
+section.communication div.gallery_container {
+	padding:50px calc((100vw - 900px) / 2);
+}
+
+section.communication div.gallery_container > p {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 20px;
+	text-align: center;
+	font-size: 1.5em;
+	width: 700px;
+}
+
+ /****************
+ 	contact page
+ ****************/
+section.contact {
+	display: block;
+	text-align: center;
+
+}
+
+section.contact div.image {
+	padding-top: 68.5px;
+	padding-bottom: 68.5px;
+	background-image: url(../images/contact-header-background-01.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 1920px 200px;
+}
+
+section.contact div.image h2 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 2.5em;
+    color: #EA4E00;
+    position: relative;
+    width: 300px;
+}
+
+section.contact div.image h2:before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: 0px;
+    width: 80%;
+    height: 140%;
+    border: 2px solid #EA4E00;
+    border-right: none;
+    border-bottom: none;
+}
+
+section.contact div.image h2:after {
+	content: "";
+    position: absolute;
+    bottom: -20px;
+    right: 0px;
+    width: 80%;
+    height: 140%;
+    border: 2px solid #EA4E00;
+    border-left: none;
+    border-top: none;
+}
+
+section.contact div.contact_content {
+	display: block;
+	text-align: right;
+	padding:20px calc((100vw - 1200px) / 2);
+}
+
+section.contact article {
+	display: inline-block;
+	vertical-align: top;
+	padding-right: 10%;
+	width: 50%;
+}
+
+section.contact article h3 {
+	font-weight: 400;
+}
+
+section.contact article p {
+	font-size: 1em;
+	padding-bottom: 10px;
+}
+
+section.contact article strong {
+	font-size: 1.5em;
+}
+
+section.contact div.form_wrap {
+	display: inline-block;
+	vertical-align: top;
+	padding: 0px;
+	position: relative;
+	background-color: #ECF0F1;
+	width: 35%;
+}
+
+section.contact div.form_wrap > p {
+	padding-top: 15px;
+	background-color: #2C3E50;
+}
+
+section.contact div.form_wrap form {
+	display: block;
+}
+
+section.contact div.form_wrap form label {
+	display: block;
+}
+
+section.contact div.form_wrap form label:first-of-type {
+	margin-top: 20px;
+}
+
+section.contact div.form_wrap form label:before {
+	right: 40px;
+}
+
+section.contact div.form_wrap form label input {
+	width: calc(80% - 40px);
+}
+
+section.contact div.form_wrap form div.controls {
+	display: block;
+	padding-bottom: 20px;
+}
+
+section.contact div.form_wrap form div.controls button {
+	width: 81%;
+}
+
+
+
 
