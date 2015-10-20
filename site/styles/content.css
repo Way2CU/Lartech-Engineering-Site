@@ -196,12 +196,14 @@ form div.controls button {
     z-index: 1;
     cursor: pointer;
     position: relative;
-    transition: all 0.2s;  
+    transition: all 0.3s;  
       	
 }
 
 form div.controls button:hover {
     border: 1px solid #EA4E00;
+    background-color: #EA4E00;
+    color: white;
 }
 
 section.clients {
@@ -674,6 +676,85 @@ section.contact div.form_wrap form div.controls button {
 	width: 81%;
 }
 
+/*************
+	inner_pages
+**************/
+
+section.inner {
+	display: block;
+	text-align: right;
+}
+
+section.inner div.image {
+	padding-top: 68.5px;
+	padding-bottom: 68.5px;
+	background-color: black;
+}
+
+section.inner div.image h2 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 2.5em;
+    color: #EA4E00;
+    position: relative;
+    width: 800px;
+}
+
+section.inner div.image h2:before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: 0px;
+    width: 80%;
+    height: 140%;
+    border: 2px solid #EA4E00;
+    border-right: none;
+    border-bottom: none;
+}
+
+section.inner div.image h2:after {
+	content: "";
+    position: absolute;
+    bottom: -20px;
+    right: 0px;
+    width: 80%;
+    height: 140%;
+    border: 2px solid #EA4E00;
+    border-left: none;
+    border-top: none;
+}
+
+section.inner article {
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	width: 960px;
+}
+
+section.inner article p {
+	padding-bottom: 10px;
+}
+
+section.inner article ul {
+	margin: 0px;
+	padding: 0px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+}
+
+section.inner article img {
+	width: 40%;
+	float: left;
+	margin-right:40px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+section.inner article p:last-of-type {
+	padding-bottom: 0px;
+}
 
 
 
