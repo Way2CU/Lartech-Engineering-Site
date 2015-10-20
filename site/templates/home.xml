@@ -65,7 +65,7 @@
 					template="parts/gallery_group2.xml"
 					/>
 				<a
-					href="url_Make('', 'solutions')"
+					href="url_Make('', 'communication-towers')"
 					cms:eval="href"
 					>
 					<cms:text constant="more_information_btn"/>
