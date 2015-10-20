@@ -1,28 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE document SYSTEM "../units/schema/section.dtd">
 <document>
+
 	<section name="home">
 		<language name="all" file="home.xml" />
 	</section>
+
 	<section name="about">
 		<language name="all">
 			<action name="_default" file="about.xml"/>
-			<action name="construction" file="about-construction.xml"/>
-			<action name="building" file="about-construction.xml"/>
+			<action name="building" file="sub_menu_link_pages.xml"/>
+			<action name="construction" file="sub_menu_link_pages.xml"/>
 		</language>
 	</section>
+
 	<section name="clients">
 		<language name="all" file="clients.xml" />
 	</section>
+
 	<section name="communication-towers">
 		<language name="all">
 			<action name="_default" file="communication_towers.xml"/>
+			<action name="self-soport" file="sub_menu_link_pages.xml"/>
+			<action name="three-feet" file="sub_menu_link_pages.xml"/>
+			<action name="four-feet" file="sub_menu_link_pages.xml"/>
+			<action name="monopole" file="sub_menu_link_pages.xml"/>
+			<action name="pole1" file="sub_menu_link_pages.xml"/>
+			<action name="pole2" file="sub_menu_link_pages.xml"/>
+			<action name="pole3" file="sub_menu_link_pages.xml"/>
+			<action name="design-solutions" file="sub_menu_link_pages.xml"/>
 		</language>
 	</section>
+
 	<section name="building">
-		<language name="all" file="building.xml" />
+		<language name="all">
+			<action name="_default" file="building.xml"/>
+			<action name="green" file="sub_menu_link_pages.xml"/>
+			<action name="industrial" file="sub_menu_link_pages.xml"/>
+			<action name="tower" file="sub_menu_link_pages.xml"/>
+			<action name="conventional" file="sub_menu_link_pages.xml"/>
+		</language>
 	</section>
+
 	<section name="contact">
 		<language name="all" file="contact.xml" />
 	</section>
+
 </document>
