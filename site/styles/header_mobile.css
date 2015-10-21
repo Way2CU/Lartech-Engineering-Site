@@ -1,0 +1,184 @@
+/**
+ * Mobile Header Style Sheet
+ * Lartech Engineering Site
+ *
+ * Copyright (c) 2015. by Way2CU, http://way2cu.com
+ * Authors:Tal Reznic
+ */
+
+ header {
+ 	display: block;
+ 	position: relative;
+ }
+
+div.mobile_title {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: white;
+	text-align: center;
+}
+
+div.mobile_title a.menu {
+	position: absolute;
+	top: 50%;
+	margin-top: -2.5px;
+	right: 10px;
+	width: 35px;
+	height: 5px;
+	background-color: #bcc2c6;
+	transition: all 0.3s;
+}
+
+div.mobile_title.visible a.menu {
+	right: -0px;
+	background-color: #EA4E00;
+}
+
+div.mobile_title a.menu:before {
+	content: "";
+	position: absolute;
+	top: -10px;
+	right: 0px;
+	width: 35px;
+	height: 5px;
+	background-color: #bcc2c6;
+	transition: all 0.3s;
+}
+
+div.mobile_title.visible a.menu:before {
+	transform:rotate(-30deg);
+	background-color: #EA4E00;
+}
+
+div.mobile_title a.menu:after {
+	content: "";
+	position: absolute;
+	top: 10px;
+	right: 0px;
+	width: 35px;
+	height: 5px;
+	background-color: #bcc2c6;
+	transition: all 0.3s;
+}
+
+div.mobile_title.visible a.menu:after {
+	transform:rotate(30deg);
+	background-color: #EA4E00;
+}
+
+div.mobile_title a:nth-of-type(2) {
+	display: inline-block;
+	vertical-align: middle;
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+}
+
+div.mobile_title a:nth-of-type(2) img {
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 5px;
+	width: 50px;
+	height: 50px;
+}
+
+div.mobile_title a.phone {
+	position: absolute;
+	top: 50%;
+	margin-top: -17.5px;
+	left: 10px;
+}
+
+div.mobile_title a.phone img {
+	display: block;
+	width: 35px;
+	height: 35px;
+}
+
+body.rtl .mobile_menu.visible {
+	right: 0px;
+	width: 100%;
+	overflow: scroll;
+}
+
+body.rtl .mobile_menu ul {
+	margin: 0px;
+	padding: 0px;
+	padding-top: 15px;
+	list-style-type: none;
+}
+
+body.rtl .mobile_menu ul li {
+	display: block;
+	position: relative;
+}
+
+body.rtl .mobile_menu ul li a {
+	display: block;
+	text-decoration: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: black;
+	font-weight: 700;
+	position: relative;
+	overflow: hidden;
+	transition: all 0.3s;
+	border-bottom: 2px solid #bcc2c6;
+}
+
+body.rtl .mobile_menu > ul > li > a.active {
+	background-color: #bcc2c6;
+}
+
+body.rtl .mobile_menu ul li a:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 5px;
+    height: 100%;
+    background-color: #EA4E00;
+}
+
+body.rtl .mobile_menu ul li ul {
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	padding-right: 30px;
+	background-color: white;
+	transition: all 0.6s;
+}
+
+body.rtl .mobile_menu ul li ul li {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	border-bottom: none;
+}
+
+body.rtl .mobile_menu ul li ul li a {
+	padding-left: 15px;
+	padding-right: 15px;
+	color: rgba(0, 0, 0, 0.7);
+	position: relative;
+	overflow: hidden;
+	border: none;
+}
+
+body.rtl .mobile_menu ul li ul li a.active {
+	color: #EA4E00;
+}
+
+body.rtl .mobile_menu ul li ul li a:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    margin-top: -2px;
+    right: 0px;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: #EA4E00;
+}
+
+
