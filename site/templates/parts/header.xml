@@ -1,4 +1,6 @@
 <document>
+	<!-- Desktop Header -->
+	<cms:desktop>
 	<header>
 
 		<a
@@ -33,4 +35,45 @@
 		</a>
 
 	</header>
+	</cms:desktop>
+	<!-- Desktop header End -->
+
+	<!-- mobile Header -->
+	<cms:mobile>
+	<header>
+		<div class="mobile_title">
+			<a href="javascript:void(0)" class="menu"></a>
+			<a
+				class="$section == 'home' ? 'active' : false"
+				href="url_Make('', 'home')"
+				cms:eval="href"
+				cms:optional="class"
+				>
+				<img 
+					src="_BASEURL.'/site/images/logo-reconstructed.svg'" 
+				 	alt="lartech_logo"
+					cms:eval="src,alt"
+				 	/>
+				<cms:text constant="title"/>
+			</a>
+			<a
+				href="'tel:'.urlencode(Language::getText('phone'))"
+				cms:eval="href"
+				class="phone"
+				>
+				<img 
+					src="_BASEURL.'/site/images/nav-phone-icon.svg'"  
+					alt="icon_phone"
+					cms:eval="src"
+					/>
+			</a>
+		</div>
+
+		<nav class="mobile_menu">
+			<cms:template file="parts/nav.xml"/>
+		</nav>
+		
+	</header>
+	</cms:mobile>
+	<!-- mobile header End -->
 </document>
