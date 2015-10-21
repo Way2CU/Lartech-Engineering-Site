@@ -31,7 +31,7 @@ div.mobile_title a.menu {
 
 div.mobile_title.visible a.menu {
 	right: -0px;
-	background-color: #EA4E00;
+	background-color: white;
 }
 
 div.mobile_title a.menu:before {
@@ -46,7 +46,8 @@ div.mobile_title a.menu:before {
 }
 
 div.mobile_title.visible a.menu:before {
-	transform:rotate(-30deg);
+	top: 0px;
+	transform:rotate(-45deg);
 	background-color: #EA4E00;
 }
 
@@ -62,7 +63,8 @@ div.mobile_title a.menu:after {
 }
 
 div.mobile_title.visible a.menu:after {
-	transform:rotate(30deg);
+	top: 0px;
+	transform:rotate(45deg);
 	background-color: #EA4E00;
 }
 
