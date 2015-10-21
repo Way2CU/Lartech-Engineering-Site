@@ -125,7 +125,6 @@ body.rtl .mobile_menu ul li a {
 	position: relative;
 	overflow: hidden;
 	transition: all 0.3s;
-	border-bottom: 2px solid #bcc2c6;
 }
 
 body.rtl .mobile_menu > ul > li > a.active {
