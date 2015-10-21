@@ -17,7 +17,7 @@ section.top {
     background-repeat: no-repeat;
     background-position: center top;
     background-size: 100% auto;
-    min-height: 353px;
+    min-height: 335px;
     position: relative;
 }
 
@@ -303,6 +303,225 @@ section.production > a {
 	z-index: 0;
 	width: 250px;
 }
+
+/******************
+	About Page
+*******************/
+section.about {
+	display: block;
+	margin-top: 60px;
+	text-align: right;
+}
+
+section.about div.image {
+	padding-top: 35px;
+	padding-bottom: 35px;
+	background-image: url(../images/mobile-about-header-background.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 100% auto;
+}
+
+section.about div.image h2 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 1.5em;
+    color: #EA4E00;
+    position: relative;
+}
+
+section.about div.image h2:before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: 15px;
+    width: 80%;
+    height: 140%;
+    border: 2px solid #EA4E00;
+    border-right: none;
+    border-bottom: none;
+}
+
+section.about div.image h2:after {
+	content: "";
+    position: absolute;
+    bottom: -20px;
+    right: 15px;
+    width: 80%;
+    height: 140%;
+    border: 2px solid #EA4E00;
+    border-left: none;
+    border-top: none;
+}
+
+section.about article {
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 95%;
+}
+
+section.about article p {
+	padding-bottom: 10px;
+}
+
+section.about article img {
+	display: block;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}
+
+section.about article p:last-of-type {
+	padding-bottom: 0px;
+}
+
+/******************
+	Cleints Page
+*******************/
+section.client_page {
+	display: block;
+	margin-top: 60px;
+	text-align: center;
+}
+
+section.client_page div.image {
+	padding-top: 35px;
+	padding-bottom: 35px;
+	background-image: url(../images/mobile-clients-header-background.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 100% auto;
+}
+
+section.client_page div.image h2 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 1.5em;
+    color: #EA4E00;
+    position: relative;
+}
+
+section.client_page div.image h2:before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: 15px;
+    width: 80%;
+    height: 140%;
+    border: 2px solid #EA4E00;
+    border-right: none;
+    border-bottom: none;
+}
+
+section.client_page div.image h2:after {
+	content: "";
+    position: absolute;
+    bottom: -20px;
+    right: 15px;
+    width: 80%;
+    height: 140%;
+    border: 2px solid #EA4E00;
+    border-left: none;
+    border-top: none;
+}
+
+section.client_page div.gallery_container {
+	display: block;
+}
+
+section.client_page div.gallery_container > p {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	font-size: 1em;
+	width: 95%;
+}
+
+section.client_page div.gallery_container > img {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+ /****************
+ 	Communication-Towers page
+ ****************/
+section.communication {
+	display: block;
+	margin-top: 60px;
+	text-align: center;
+}
+
+section.communication div.image {
+	padding-top: 35px;
+	padding-bottom: 35px;
+	background-image: url(../images/mobile-solutions-header-background.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 100% auto;
+}
+
+section.communication div.image h2 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 1.3em;
+    color: #EA4E00;
+    position: relative;
+    width: 100%;
+}
+
+section.communication div.image h2:before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: 15px;
+    width: 80%;
+    height: 140%;
+    border: 2px solid #EA4E00;
+    border-right: none;
+    border-bottom: none;
+}
+
+section.communication div.image h2:after {
+	content: "";
+    position: absolute;
+    bottom: -20px;
+    right: 15px;
+    width: 80%;
+    height: 140%;
+    border: 2px solid #EA4E00;
+    border-left: none;
+    border-top: none;
+}
+
+section.communication div.gallery_container {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+section.communication div.gallery_container > p {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 20px;
+	text-align: center;
+	font-size: 1em;
+	width: 95%;
+}
+
+section.communication div.gallery_container img {
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
 
 
 
