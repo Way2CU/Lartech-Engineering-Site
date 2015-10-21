@@ -13,7 +13,7 @@
 				<ul>
 					<li>
 						<a
-							class="$section == 'building' ? 'active' : false"
+							class="$action == 'building' ? 'active' : false"
 							href="url_Make('building', 'about')"
 							cms:eval="href"
 							cms:optional="class"
@@ -23,7 +23,7 @@
 					</li>
 					<li>
 						<a
-							class="$section == 'construction' ? 'active' : false"
+							class="$action == 'construction' ? 'active' : false"
 							href="url_Make('construction', 'about')"
 							cms:eval="href"
 							cms:optional="class"
@@ -56,7 +56,7 @@
 				<ul>
 					<li>
 						<a
-							class="$section == 'about_constuction' ? 'active' : false"
+							class="$action == 'self-soport' ? 'active' : false"
 							href="url_Make('self-soport', 'communication-towers')"
 							cms:eval="href"
 							cms:optional="class"
@@ -67,7 +67,7 @@
 
 					<li>
 						<a
-							class="$section == 'about_constuction' ? 'active' : false"
+							class="$action == 'three-feet' ? 'active' : false"
 							href="url_Make('three-feet', 'communication-towers')"
 							cms:eval="href"
 							cms:optional="class"
@@ -78,7 +78,7 @@
 
 					<li>
 						<a
-							class="$section == 'about_constuction' ? 'active' : false"
+							class="$action == 'four-feet' ? 'active' : false"
 							href="url_Make('four-feet', 'communication-towers')"
 							cms:eval="href"
 							cms:optional="class"
@@ -89,7 +89,7 @@
 
 					<li>
 						<a
-							class="$section == 'about_constuction' ? 'active' : false"
+							class="$action == 'monopole' ? 'active' : false"
 							href="url_Make('monopole', 'communication-towers')"
 							cms:eval="href"
 							cms:optional="class"
@@ -100,7 +100,7 @@
 
 					<li>
 						<a
-							class="$section == 'about_constuction' ? 'active' : false"
+							class="$action == 'pole1' ? 'active' : false"
 							href="url_Make('pole1', 'communication-towers')"
 							cms:eval="href"
 							cms:optional="class"
@@ -111,7 +111,7 @@
 
 					<li>
 						<a
-							class="$section == 'about_constuction' ? 'active' : false"
+							class="$action == 'pole2' ? 'active' : false"
 							href="url_Make('pole2', 'communication-towers')"
 							cms:eval="href"
 							cms:optional="class"
@@ -122,7 +122,7 @@
 
 					<li>
 						<a
-							class="$section == 'about_constuction' ? 'active' : false"
+							class="$action == 'pole3' ? 'active' : false"
 							href="url_Make('pole3', 'communication-towers')"
 							cms:eval="href"
 							cms:optional="class"
@@ -133,7 +133,7 @@
 
 					<li>
 						<a
-							class="$section == 'about_constuction' ? 'active' : false"
+							class="$action == 'design-solutions' ? 'active' : false"
 							href="url_Make('design-solutions', 'communication-towers')"
 							cms:eval="href"
 							cms:optional="class"
@@ -156,7 +156,7 @@
 				<ul>
 					<li>
 						<a
-							class="$section == 'about_constuction' ? 'active' : false"
+							class="$action == 'green' ? 'active' : false"
 							href="url_Make('green', 'building')"
 							cms:eval="href"
 							cms:optional="class"
@@ -167,7 +167,7 @@
 
 					<li>
 						<a
-							class="$section == 'about_constuction' ? 'active' : false"
+							class="$action == 'industrial' ? 'active' : false"
 							href="url_Make('industrial', 'building')"
 							cms:eval="href"
 							cms:optional="class"
@@ -178,7 +178,7 @@
 
 					<li>
 						<a
-							class="$section == 'about_constuction' ? 'active' : false"
+							class="$action == 'tower' ? 'active' : false"
 							href="url_Make('tower', 'building')"
 							cms:eval="href"
 							cms:optional="class"
@@ -189,7 +189,7 @@
 
 					<li>
 						<a
-							class="$section == 'about_constuction' ? 'active' : false"
+							class="$action == 'conventional' ? 'active' : false"
 							href="url_Make('conventional', 'building')"
 							cms:eval="href"
 							cms:optional="class"
