@@ -181,11 +181,11 @@ form div.controls button {
     padding-bottom: 19px;
     padding-left: 25px;
     padding-right: 25px;
-    border: 1px solid #BDC3C7;
-	background-color: white;
+    border: none;
+	background-color: #EA4E00;
     line-height: 100%;
     font-weight: 700;
-    color: #EA4E00;
+    color: white;
     z-index: 1;
     cursor: pointer;
     position: relative;
@@ -245,7 +245,8 @@ section.clients > a {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	text-decoration: none;
-	color: #EA4E00;
+	background-color: #EA4E00;
+	color: white;
 	font-size: 1.3em;
 	border: 1px solid #EA4E00;
 	position: relative;
@@ -292,7 +293,8 @@ section.production > a {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	text-decoration: none;
-	color: #EA4E00;
+	background-color: #EA4E00;
+	color: white;
 	font-size: 1.3em;
 	border: 1px solid #EA4E00;
 	position: relative;
