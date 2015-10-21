@@ -12,18 +12,19 @@
 			<cms:template file="parts/header.xml"/>
 			<section class="$section == 'clients' ? 'client_page' : false" cms:optional="class">
 				
-			<div class="image">
-				<h2><cms:text constant="clients_title"/></h2>
-			</div>
+				<div class="image">
+					<h2><cms:text constant="clients_title"/></h2>
+				</div>
 
-			<cms:module
-				name="gallery"
-				action="show_group"
-				text_id="lartech_clients"
-				template="parts/gallery_group3.xml"
-				/>
+				<cms:module
+					name="gallery"
+					action="show_group"
+					text_id="lartech_clients"
+					template="parts/gallery_group3.xml"
+					/>
 
-			<cms:template file="parts/footer.xml"/>
+				<cms:template file="parts/footer.xml"/>
+			</section>	
 		</body>
 	</html>
 </document>
