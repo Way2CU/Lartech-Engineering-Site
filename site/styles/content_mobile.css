@@ -522,6 +522,85 @@ section.communication div.gallery_container img {
 	margin-left: 5px;
 }
 
+ /****************
+ 	contact page
+ ****************/
+section.contact {
+	display: block;
+	margin-top: 60px;
+	text-align: center;
+}
+
+section.contact div.image {
+	padding-top: 35px;
+	padding-bottom: 35px;
+	background-image: url(../images/mobile-contact-header-background.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 100% auto;
+}
+
+section.contact div.image h2 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 1.5em;
+    color: #EA4E00;
+    position: relative;
+    width: 95%;
+}
+
+section.contact div.image h2:before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: 15px;
+    width: 80%;
+    height: 140%;
+    border: 2px solid #EA4E00;
+    border-right: none;
+    border-bottom: none;
+}
+
+section.contact div.image h2:after {
+	content: "";
+    position: absolute;
+    bottom: -20px;
+    right: 15px;
+    width: 80%;
+    height: 140%;
+    border: 2px solid #EA4E00;
+    border-left: none;
+    border-top: none;
+}
+
+section.contact div.contact_content {
+	display: block;
+	text-align: right;
+}
+
+section.contact article {
+	display: block;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+}
+
+section.contact article h3 {
+	font-weight: 400;
+}
+
+section.contact article p {
+	font-size: 1em;
+	padding-bottom: 10px;
+}
+
+section.contact article strong {
+	font-size: 1.3em;
+}
+
 
 
 
