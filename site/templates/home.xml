@@ -10,16 +10,41 @@
 
 		<body class="$language_rtl ? 'rtl' : 'ltr'" cms:eval="class">
 			<cms:template file="parts/header.xml"/>
+			<!-- Desktop Version -->
+			<cms:desktop>
+				<section class="top">
 
-			<section class="top">
+					<cms:module
+						name="articles"
+						action="show"
+						text_id="home_article"
+						template="parts/article.xml"
+						/>
 
-				<cms:module
-					name="articles"
-					action="show"
-					text_id="home_article"
-					template="parts/article.xml"
-					/>
+					<div class="form_wrap">
+						<p><cms:text constant="form_title"/></p>
+						<cms:module
+							name="contact_form"
+							action="show"
+							text_id="contact"
+							/>
+					</div>
 
+				</section>
+			</cms:desktop>
+			<!-- Mobile version -->
+			<cms:mobile>
+				<section class="top">
+
+					<cms:module
+						name="articles"
+						action="show"
+						text_id="home_article"
+						template="parts/article.xml"
+						/>
+
+				</section>
+				
 				<div class="form_wrap">
 					<p><cms:text constant="form_title"/></p>
 					<cms:module
@@ -28,9 +53,7 @@
 						text_id="contact"
 						/>
 				</div>
-
-			</section>
-
+			</cms:mobile>
 			<section class="clients">
 
 				<cms:module
