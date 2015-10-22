@@ -580,6 +580,15 @@ section.contact div.contact_content {
 	text-align: right;
 }
 
+section.contact div.form_wrap {
+	background-color: #ECF0F1;
+}
+
+section.contact div.form_wrap > p {
+	color: #34495E;
+	padding-bottom: 20px;
+}
+
 section.contact article {
 	display: block;
 	padding-top: 20px;
