@@ -682,6 +682,14 @@ section.contact div.form_wrap form div.controls button {
 	width: 80%;
 }
 
+section.contact > img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 20px;
+	
+}
+
 /*************
 	inner_pages
 **************/
