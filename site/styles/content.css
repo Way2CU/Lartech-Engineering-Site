@@ -653,6 +653,7 @@ section.contact div.form_wrap form {
 
 section.contact div.form_wrap form label {
 	display: block;
+	margin-bottom: 5px;
 }
 
 section.contact div.form_wrap form label:first-of-type {
@@ -665,6 +666,11 @@ section.contact div.form_wrap form label:before {
 
 section.contact div.form_wrap form label input {
 	width: calc(80% - 40px);
+	border: 1px solid #BDC3C7;
+}
+
+section.contact div.form_wrap form label input:focus {
+	border: 1px solid #EA4E00;
 }
 
 section.contact div.form_wrap form div.controls {
@@ -673,7 +679,7 @@ section.contact div.form_wrap form div.controls {
 }
 
 section.contact div.form_wrap form div.controls button {
-	width: 81%;
+	width: 80%;
 }
 
 /*************
