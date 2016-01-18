@@ -14,8 +14,7 @@ footer {
 	background-image: url(../images/mobile-footer.jpg);
 	background-repeat: no-repeat;
 	background-position: center top;
-	background-size: 100% auto;
-	min-height: 400px;
+	background-size: auto 100%;
 	position: relative;
 }
 
@@ -41,22 +40,22 @@ footer address {
 }
 
 footer address a, footer address span {
-    display: block;
-    text-align: right;
-    margin-left: auto;
-    margin-right: 65px;
-    margin-bottom: 15px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 5px;
-    text-decoration: none;
-    color: black;
-    font-size: 1em;
-    font-weight: 700;
-    background-color: white;
-    width: calc(75% - 5px);
-    position: relative;
-    transition: all 0.3s;
+	display: block;
+	text-align: right;
+	margin-left: auto;
+	margin-right: 65px;
+	margin-bottom: 15px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 5px;
+	text-decoration: none;
+	color: black;
+	font-size: 1em;
+	font-weight: 700;
+	background-color: white;
+	width: calc(75% - 5px);
+	position: relative;
+	transition: all 0.3s;
 }
 
 footer address a:before, footer address span:before {
@@ -70,16 +69,28 @@ footer address a:before, footer address span:before {
 	background-image: url(../images/icons-sprite.svg);
 	background-repeat: no-repeat;
 	background-position: 0px center;
-	background-size: 150px 50px;
+	background-size: 250px 50px;
 	transition: all 0.3s;
 }
 
+footer address a:first-of-type:before {
+	background-position: -100px center;
+}
+
+footer address a:nth-of-type(2):before {
+	background-position:  0px center;
+}
+
+footer address a:nth-of-type(3):before {
+	background-position:  -50px center;
+}
+
 footer address span:before {
-	background-position: -50px center;
+	background-position: -150px center;
 }
 
 footer address a:last-of-type:before {
-	background-position: -100px center;
+	background-position: -200px center;
 }
 
 footer div.copyright {
