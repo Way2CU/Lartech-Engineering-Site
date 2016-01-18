@@ -10,14 +10,6 @@
 			</a>
 
 			<a
-				href="'tel:'.urlencode(Language::getText('phone_office'))"
-				cms:eval="href"
-				class="phone"
-				>
-				<cms:text constant="phone_office_text"/>
-			</a>
-
-			<a
 				href="'fax:'.urlencode(Language::getText('fax'))"
 				cms:eval="href"
 				class="phone"

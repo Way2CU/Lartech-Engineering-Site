@@ -78,10 +78,6 @@ footer address a:first-of-type:before {
 }
 
 footer address a:nth-of-type(2):before {
-	background-position:  0px center;
-}
-
-footer address a:nth-of-type(3):before {
 	background-position:  -50px center;
 }
 
