@@ -35,15 +35,15 @@ section.top article {
 }
 
 section.top article:before {
-    content: "";
-    position: absolute;
-    top: -15%;
-    left: -5%;
-    height: 100%;
-    width: 90%;
-    border: 2px solid white;
-    border-right: none;
-    border-bottom: none;
+	content: "";
+	position: absolute;
+	top: -15%;
+	left: -5%;
+	height: 100%;
+	width: 90%;
+	border: 2px solid white;
+	border-right: none;
+	border-bottom: none;
 }
 
 section.top article:after {
@@ -73,35 +73,35 @@ section.top article h1 {
 }
 
 section.top article h1:before {
-    content: "";
-    position: absolute;
-    top: -6%;
-    left: -2%;
-    height: 50%;
-    width: 50%;
-    border: 4px solid white;
-    border-right: none;
-    border-bottom: none;
+	content: "";
+	position: absolute;
+	top: -6%;
+	left: -2%;
+	height: 50%;
+	width: 50%;
+	border: 4px solid white;
+	border-right: none;
+	border-bottom: none;
 }
 
 section.top article h1:after {
-    content: "";
-    position: absolute;
-    bottom: -6%;
-    right: -2%;
-    height: 50%;
-    width: 50%;
-    border: 4px solid white;
-    border-left: none;
-    border-top: none;
+	content: "";
+	position: absolute;
+	bottom: -6%;
+	right: -2%;
+	height: 50%;
+	width: 50%;
+	border: 4px solid white;
+	border-left: none;
+	border-top: none;
 }
 
 section.top article p {
-    margin-left: auto;
-    margin-right: auto;
-    color: white;
-    font-size: 1.5em;
-    width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	font-size: 1.5em;
+	width: 80%;
 }
 
 div.form_wrap {
@@ -134,39 +134,39 @@ form label {
 }
 
 form label:before {
-    content: "";
-    position: absolute;
-    top: 2px;
-    right: 2px;
-    background-image: url(../images/form-icons.svg);
-    background-repeat: no-repeat;
-    background-position: -120px 0px;
-    background-size: 200px 50px;
-    width: 50px;
-    height: 50px;
+	content: "";
+	position: absolute;
+	top: 2px;
+	right: 2px;
+	background-image: url(../images/form-icons.svg);
+	background-repeat: no-repeat;
+	background-position: -120px 0px;
+	background-size: 200px 50px;
+	width: 50px;
+	height: 50px;
 }
 
 form label:nth-of-type(2):before {
-    background-position: -70px 0px;
+	background-position: -70px 0px;
 }
 
 form label:nth-of-type(3):before {
-    background-position: -20px 0px;
+	background-position: -20px 0px;
 }
 
 
 form label input {
-    display: inline-block;
-    vertical-align: middle;
-    padding-top: 18px;
-    padding-bottom: 18px;
-    padding-right: 40px;
+	display: inline-block;
+	vertical-align: middle;
+	padding-top: 18px;
+	padding-bottom: 18px;
+	padding-right: 40px;
 	background-color: white;
-    border: 1px solid #BDC3C7;
-    border-left: 1px solid transparent;
-    box-shadow: 0px 2px 10px rgba(126, 139, 140, 0.2);
-    width:calc(220px - 40px);
-    transition:all 0.3s;
+	border: 1px solid #BDC3C7;
+	border-left: 1px solid transparent;
+	box-shadow: 0px 2px 10px rgba(126, 139, 140, 0.2);
+	width:calc(220px - 40px);
+	transition:all 0.3s;
 }
 
 form label input:hover {
@@ -184,26 +184,25 @@ form div.controls {
 }
 
 form div.controls button {
-    padding-top: 19px;
-    padding-bottom: 19px;
-    padding-left: 25px;
-    padding-right: 25px;
-    border: 1px solid #BDC3C7;
+	padding-top: 19px;
+	padding-bottom: 19px;
+	padding-left: 25px;
+	padding-right: 25px;
+	border: 1px solid #BDC3C7;
 	background-color: white;
-    line-height: 100%;
-    font-weight: 700;
-    color: #EA4E00;
-    z-index: 1;
-    cursor: pointer;
-    position: relative;
-    transition: all 0.3s;  
-      	
+	line-height: 100%;
+	font-weight: 700;
+	color: #EA4E00;
+	z-index: 1;
+	cursor: pointer;
+	position: relative;
+	transition: all 0.3s;  	
 }
 
 form div.controls button:hover {
-    border: 1px solid #EA4E00;
-    background-color: #EA4E00;
-    color: white;
+	border: 1px solid #EA4E00;
+	background-color: #EA4E00;
+	color: white;
 }
 
 section.clients {
@@ -361,37 +360,37 @@ section.about div.image {
 }
 
 section.about div.image h2 {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    font-size: 2.5em;
-    color: #EA4E00;
-    position: relative;
-    width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 2.5em;
+	color: #EA4E00;
+	position: relative;
+	width: 800px;
 }
 
 section.about div.image h2:before {
-    content: "";
-    position: absolute;
-    top: -20px;
-    left: 0px;
-    width: 80%;
-    height: 140%;
-    border: 2px solid #EA4E00;
-    border-right: none;
-    border-bottom: none;
+	content: "";
+	position: absolute;
+	top: -20px;
+	left: 0px;
+	width: 80%;
+	height: 140%;
+	border: 2px solid #EA4E00;
+	border-right: none;
+	border-bottom: none;
 }
 
 section.about div.image h2:after {
 	content: "";
-    position: absolute;
-    bottom: -20px;
-    right: 0px;
-    width: 80%;
-    height: 140%;
-    border: 2px solid #EA4E00;
-    border-left: none;
-    border-top: none;
+	position: absolute;
+	bottom: -20px;
+	right: 0px;
+	width: 80%;
+	height: 140%;
+	border: 2px solid #EA4E00;
+	border-left: none;
+	border-top: none;
 }
 
 section.about article {
@@ -437,37 +436,37 @@ section.client_page div.image {
 }
 
 section.client_page div.image h2 {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    font-size: 2.5em;
-    color: #EA4E00;
-    position: relative;
-    width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 2.5em;
+	color: #EA4E00;
+	position: relative;
+	width: 600px;
 }
 
 section.client_page div.image h2:before {
-    content: "";
-    position: absolute;
-    top: -20px;
-    left: 0px;
-    width: 80%;
-    height: 140%;
-    border: 2px solid #EA4E00;
-    border-right: none;
-    border-bottom: none;
+	content: "";
+	position: absolute;
+	top: -20px;
+	left: 0px;
+	width: 80%;
+	height: 140%;
+	border: 2px solid #EA4E00;
+	border-right: none;
+	border-bottom: none;
 }
 
 section.client_page div.image h2:after {
 	content: "";
-    position: absolute;
-    bottom: -20px;
-    right: 0px;
-    width: 80%;
-    height: 140%;
-    border: 2px solid #EA4E00;
-    border-left: none;
-    border-top: none;
+	position: absolute;
+	bottom: -20px;
+	right: 0px;
+	width: 80%;
+	height: 140%;
+	border: 2px solid #EA4E00;
+	border-left: none;
+	border-top: none;
 }
 
 section.client_page div.gallery_container {
@@ -508,37 +507,37 @@ section.communication div.image {
 }
 
 section.communication div.image h2 {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    font-size: 2.5em;
-    color: #EA4E00;
-    position: relative;
-    width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 2.5em;
+	color: #EA4E00;
+	position: relative;
+	width: 800px;
 }
 
 section.communication div.image h2:before {
-    content: "";
-    position: absolute;
-    top: -20px;
-    left: 0px;
-    width: 80%;
-    height: 140%;
-    border: 2px solid #EA4E00;
-    border-right: none;
-    border-bottom: none;
+	content: "";
+	position: absolute;
+	top: -20px;
+	left: 0px;
+	width: 80%;
+	height: 140%;
+	border: 2px solid #EA4E00;
+	border-right: none;
+	border-bottom: none;
 }
 
 section.communication div.image h2:after {
 	content: "";
-    position: absolute;
-    bottom: -20px;
-    right: 0px;
-    width: 80%;
-    height: 140%;
-    border: 2px solid #EA4E00;
-    border-left: none;
-    border-top: none;
+	position: absolute;
+	bottom: -20px;
+	right: 0px;
+	width: 80%;
+	height: 140%;
+	border: 2px solid #EA4E00;
+	border-left: none;
+	border-top: none;
 }
 
 section.communication div.gallery_container {
@@ -574,37 +573,37 @@ section.contact div.image {
 }
 
 section.contact div.image h2 {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    font-size: 2.5em;
-    color: #EA4E00;
-    position: relative;
-    width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 2.5em;
+	color: #EA4E00;
+	position: relative;
+	width: 300px;
 }
 
 section.contact div.image h2:before {
-    content: "";
-    position: absolute;
-    top: -20px;
-    left: 0px;
-    width: 80%;
-    height: 140%;
-    border: 2px solid #EA4E00;
-    border-right: none;
-    border-bottom: none;
+	content: "";
+	position: absolute;
+	top: -20px;
+	left: 0px;
+	width: 80%;
+	height: 140%;
+	border: 2px solid #EA4E00;
+	border-right: none;
+	border-bottom: none;
 }
 
 section.contact div.image h2:after {
 	content: "";
-    position: absolute;
-    bottom: -20px;
-    right: 0px;
-    width: 80%;
-    height: 140%;
-    border: 2px solid #EA4E00;
-    border-left: none;
-    border-top: none;
+	position: absolute;
+	bottom: -20px;
+	right: 0px;
+	width: 80%;
+	height: 140%;
+	border: 2px solid #EA4E00;
+	border-left: none;
+	border-top: none;
 }
 
 section.contact div.contact_content {
@@ -705,37 +704,37 @@ section.inner div.image {
 }
 
 section.inner div.image h2 {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    font-size: 2.5em;
-    color: #EA4E00;
-    position: relative;
-    width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 2.5em;
+	color: #EA4E00;
+	position: relative;
+	width: 800px;
 }
 
 section.inner div.image h2:before {
-    content: "";
-    position: absolute;
-    top: -20px;
-    left: 0px;
-    width: 80%;
-    height: 140%;
-    border: 2px solid #EA4E00;
-    border-right: none;
-    border-bottom: none;
+	content: "";
+	position: absolute;
+	top: -20px;
+	left: 0px;
+	width: 80%;
+	height: 140%;
+	border: 2px solid #EA4E00;
+	border-right: none;
+	border-bottom: none;
 }
 
 section.inner div.image h2:after {
 	content: "";
-    position: absolute;
-    bottom: -20px;
-    right: 0px;
-    width: 80%;
-    height: 140%;
-    border: 2px solid #EA4E00;
-    border-left: none;
-    border-top: none;
+	position: absolute;
+	bottom: -20px;
+	right: 0px;
+	width: 80%;
+	height: 140%;
+	border: 2px solid #EA4E00;
+	border-left: none;
+	border-top: none;
 }
 
 section.inner article {
@@ -800,8 +799,3 @@ section.inner article p:last-of-type {
 		padding-left: 0px;
 	}	
 }
-
-
-
-
-

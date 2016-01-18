@@ -132,13 +132,13 @@ body.rtl .mobile_menu > ul > li > a.active {
 }
 
 body.rtl .mobile_menu ul li a:before {
-    content: "";
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    width: 5px;
-    height: 100%;
-    background-color: #EA4E00;
+	content: "";
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 5px;
+	height: 100%;
+	background-color: #EA4E00;
 }
 
 body.rtl .mobile_menu ul li ul {
@@ -171,15 +171,13 @@ body.rtl .mobile_menu ul li ul li a.active {
 }
 
 body.rtl .mobile_menu ul li ul li a:before {
-    content: "";
-    position: absolute;
-    top: 50%;
-    margin-top: -2px;
-    right: 0px;
-    width: 4px;
-    height: 4px;
-    border-radius: 50%;
-    background-color: #EA4E00;
+	content: "";
+	position: absolute;
+	top: 50%;
+	margin-top: -2px;
+	right: 0px;
+	width: 4px;
+	height: 4px;
+	border-radius: 50%;
+	background-color: #EA4E00;
 }
-
-
