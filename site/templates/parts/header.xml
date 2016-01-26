@@ -20,19 +20,33 @@
 		<nav>
 			<cms:template file="parts/nav.xml"/>
 		</nav>
+		<div class="phones">
+			<a
+				href="'tel:'.urlencode(Language::getText('phone'))"
+				cms:eval="href"
+				class="phone"
+				>
+				<cms:text constant="phone"/>
+				<img 
+					src="_BASEURL.'/site/images/nav-phone-icon.svg'"  
+					alt="icon_phone"
+					cms:eval="src"
+					/>
+			</a>
 
-		<a
-			href="'tel:'.urlencode(Language::getText('phone'))"
-			cms:eval="href"
-			class="phone"
-			>
-			<cms:text constant="phone"/>
-			<img 
-				src="_BASEURL.'/site/images/nav-phone-icon.svg'"  
-				alt="icon_phone"
-				cms:eval="src"
-				/>
-		</a>
+			<a
+				href="'tel:'.urlencode(Language::getText('phone_cell'))"
+				cms:eval="href"
+				class="phone"
+				>
+				<cms:text constant="phone_cell"/>
+				<img 
+					src="_BASEURL.'/site/images/nav-phone-icon.svg'"  
+					alt="icon_phone"
+					cms:eval="src"
+					/>
+			</a>
+		</div>
 
 	</header>
 	</cms:desktop>
@@ -57,7 +71,7 @@
 				<cms:text constant="title"/>
 			</a>
 			<a
-				href="'tel:'.urlencode(Language::getText('phone'))"
+				href="'tel:'.urlencode(Language::getText('phone_cell'))"
 				cms:eval="href"
 				class="phone"
 				>
