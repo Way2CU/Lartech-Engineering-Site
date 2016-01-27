@@ -177,6 +177,7 @@ header nav ul li:hover ul {
 header div.phones {
 	display: inline-block;
 	vertical-align: middle;
+	text-align: left;
 	padding-right: 40px;
 }
 
